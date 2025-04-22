@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thibaud Leteno</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fcf9f9;
+      color: #333;
+    }
+    header {
+      background: #641e16 ;
+      color: #fcf9f9;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+      border: 2px solid #fff;
+      flex-shrink: 0;
+    }
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .header-text h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    .header-text p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #ddd;
+    }
+    nav {
+      background:  #78281f;
+      overflow: hidden;
+      display: flex;
+    }
+    nav a {
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 30px auto;
+    }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #78281f; <!--#2980b9;-->
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #eee;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="profile-pic">
+    <img src="photo_thibaud_leteno.jpeg" alt="Profile Picture">
+  </div>
+  <div class="header-text">
+    <h1>Thibaud Leteno</h1>
+    <p style="font-size:18px;">PhD Student | Looking for a Postdoctoral position</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">Home</a>
+  <a href="#publications">Publications</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <section id="about">
+    <h2>Short Bio</h2>
+    <p>
+      I'm a PhD student in Machine Learning within the Hubert Curien Laboratory (Jean Monnet University, Saint-Étienne) under the supervision of <a href="http://antoinegourru.com/">Antoine Gourru</a>, <a href="https://laclauc.github.io/">Charlotte Laclau</a> and <a href="https://cgravier.fr/">Christophe Gravier</a>. <br>
+      <br>
+      My research focuses primarily on Machine Learning and Natural Language Processing, with a particular focus on the study and mitigation of bias in Large Language Models. More, recently I also investigated the alignment of those models with human values. 
+      My PhD is funded by the French National Research Agency (ANR) in the context of the <a href="https://www.anr-dike.fr/">DIKE</a> project. <br>
+      <br>
+      Recently, I am looking for a postdoctoral position in the domains of Fairness, reliable and responsible NLP, interpretable NLP. 
+    </p>
+  </section>
+
+  <section id="publications">
+    <h2>Preprints / Under Review</h2>
+      <ul>
+      <li><strong>Fair Text Classification via Transferable Representations</strong>, <br>
+        <i>T. Leteno, M. Perrot, C. Laclau, A. Gourru, C. Gravier</i> <a href="https://arxiv.org/abs/2503.07691">[preprint]</a></li>
+      </ul>
+    <h2>Publications</h2>
+    <ul>
+      <li><strong>HistoiresMorales: A French Dataset for Assessing Moral Alignment</strong>, <br>
+        <i>T. Leteno, I. Proskurina et al.</i>,
+        Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL), 2025. <a href="https://arxiv.org/abs/2501.17117">[paper]</a></li>
+      <li><strong>Fair Text Classiﬁcation with Wasserstein Independence</strong>, <br> 
+        <i>T. Leteno, A. Gourru, C. Laclau, C. Gravier</i>,
+        Empirical Methods in Natural Language Processing (EMNLP), 2023. <a href="https://aclanthology.org/2023.emnlp-main.978/">[paper]</a></li>
+      <li><strong>An investigation of structures responsible for gender bias in BERT and DistilBERT</strong>, <br>
+        <i>T. Leteno, A. Gourru, C. Laclau, C. Gravier</i>,
+        Symposium on Intelligent Data Analysis (IDA), 2023. <a href="https://hal.science/hal-04213215">[paper]</a></li>
+    </ul>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul>
+      <li><strong>Introduction to programmation - Bachelor 1</strong> <br> Faculty Of Science of Saint-Etienne, 2022, 2023 & 2024</li>
+      <li><strong>Data Analysis - Bachelor 2</strong> <br> Telecom Saint-Etienne, Engineer school, 2022, 2023 & 2024</li>
+      <li><strong>Machine Learning Fundamentals - Master 1</strong> <br> Faculty Of Science of Saint-Etienne, 2022, 2023 & 2024</li>
+      <li><strong>Machine Learning for Sequential Data - 3rd year
+      Engineering School (Master 3)</strong> <br> Telecom Saint-Etienne, Engineer school, 2023 & 2024</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>thibaud.leteno[at]univ-st-etienne.fr </a></p>
+    <!-- <p>GitHub: <a href="https://github.com/LetenoThibaud" target="_blank">@LetenoThibaud</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/thibaud-leteno/" target="_blank">thibaud-leteno</a></p>
+    <p>Bluesky: <a href="https://bsky.app/profile/thibaudleteno.bsky.social" target="_blank">thibaudleteno</a></p> -->
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 Thibaud Leteno. All rights reserved.
+</footer>
+
+</body>
+</html>
